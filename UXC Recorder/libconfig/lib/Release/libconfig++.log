@@ -1,0 +1,164 @@
+﻿Build started 4/11/2013 2:12:28 PM.
+     1>Project "C:\Users\Greg\Documents\UXC\CamStudio\libconfig\lib\libconfig++.vcxproj" on node 5 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Greg\Documents\UXC\CamStudio\Release\".
+       InitializeBuildStatus:
+         Creating "Release\libconfig++.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ilib /Zi /nologo /W1 /WX- /O2 /Oy- /GL /D LIBCONFIGXX_EXPORTS /D LIBCONFIG_STATIC /D YY_NO_UNISTD_H /D YY_USE_CONST /D _CRT_SECURE_NO_DEPRECATE /D _STDLIB_H /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt grammar.c libconfig.c scanctx.c scanner.c strbuf.c
+         grammar.c
+         libconfig.c
+         scanctx.c
+         scanner.c
+         strbuf.c
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ilib /Zi /nologo /W1 /WX- /O2 /Oy- /GL /D LIBCONFIGXX_EXPORTS /D LIBCONFIG_STATIC /D YY_NO_UNISTD_H /D YY_USE_CONST /D _CRT_SECURE_NO_DEPRECATE /D _STDLIB_H /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt libconfigcpp.cc
+         libconfigcpp.cc
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Greg\Documents\UXC\CamStudio\Release\libconfig++.dll" /VERBOSE:Lib /NOLOGO /LTCG:STATUS kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\libconfig++.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Greg\Documents\UXC\CamStudio\Release\libconfig++.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Greg\Documents\UXC\CamStudio\Release\libconfig++.lib" /MACHINE:X86 /DLL Release\grammar.obj
+         Release\libconfig.obj
+         Release\libconfigcpp.obj
+         Release\scanctx.obj
+         Release\scanner.obj
+         Release\strbuf.obj
+         
+         Searching libraries
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+         
+         Finished searching libraries
+            Creating library C:\Users\Greg\Documents\UXC\CamStudio\Release\libconfig++.lib and object C:\Users\Greg\Documents\UXC\CamStudio\Release\libconfig++.exp
+         
+         Searching libraries
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+         
+         Finished searching libraries
+         Generating code
+             0% | / - \ | / -    1% \ | /    2% - \ |    3% / - \    4% | / - \ |    5% / - \ | / - \ | /    6% - \ | / - \    7% | / - \ | / -    8% \ | /    9% -   11% \ | / - \ |   12% / - \ | / - \ | / - \ |   13% / - \ | / - \   14% | / - \ | / - \ | / - \   15% | / - \ | / - \ |   16% / - \ | / - \ |   17% / - \ | / - \ |   18% / - \ | /   19% - \ | / -   20%   0 seconds remaining               \ | /   21%   0 seconds remaining               - \ | /   22%   0 seconds remaining               - \ | / - \ |   23%   0 seconds remaining               / - \   24%   0 seconds remaining               | / -   25%   0 seconds remaining               \   28%   0 seconds remaining               | /   29%   0 seconds remaining               - \   30%   0 seconds remaining               |   32%   0 seconds remaining               / - \ |   33%   0 seconds remaining               / - \   34%   0 seconds remaining               |   35%   0 seconds remaining               /   37%   0 seconds remaining               - \   38%   0 seconds remaining               | / - \ |   39%   0 seconds remaining               / - \ | /   40%   0 seconds remaining               - \ | / -   41%   0 seconds remaining               \ | / -   42%   0 seconds remaining               \ | / - \ |   43%   0 seconds remaining               / - \ | / -   44%   0 seconds remaining               \ | / - \   45%   0 seconds remaining               | / -   46%   0 seconds remaining               \ | /   47%   0 seconds remaining               -   49%   0 seconds remaining               \ |   50%   0 seconds remaining               / -   61%   0 seconds remaining               \   62%   0 seconds remaining               |   63%   0 seconds remaining               / -   64%   0 seconds remaining               \ | /   65%   0 seconds remaining               - \ | / -   66%   0 seconds remaining               \ |   67%   0 seconds remaining               / - \ |   68%   0 seconds remaining               / - \ |   69%   0 seconds remaining               / - \ | /   70%   0 seconds remaining               - \ | / - \   71%   0 seconds remaining               | / - \   72%   0 seconds remaining               | / -   73%   0 seconds remaining               \ |   74%   0 seconds remaining               / - \   75%   0 seconds remaining               | / - \   76%   0 seconds remaining               | / -   83%   0 seconds remaining               \ | /   84%   0 seconds remaining               - \ |   85%   0 seconds remaining               / - \ | /   86%   0 seconds remaining               - \   87%   0 seconds remaining               | / - \   88%   0 seconds remaining               | / - \ | /   89%   0 seconds remaining               - \ |   90%   0 seconds remaining               / - \ | / -   91%   0 seconds remaining               \ | / - \ | /   92%   0 seconds remaining               - \ | / - \ |   93%   0 seconds remaining               / - \ | /   94%   0 seconds remaining               - \ | / - \ | /   95%   0 seconds remaining               - \ | / - \ | / - \ |   96%   0 seconds remaining               /   97%   0 seconds remaining               - \ | / -   98%   0 seconds remaining               \ | / - \   99%   0 seconds remaining               | / - \ | / - \ | /  100%   0 seconds remaining                
+         Finished generating code
+         
+         Searching libraries
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+         
+         Finished searching libraries
+         
+         Searching libraries
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching c:\Program Files\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+         
+         Finished searching libraries
+         libconfig++.vcxproj -> C:\Users\Greg\Documents\UXC\CamStudio\Release\libconfig++.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Greg\Documents\UXC\CamStudio\Release\libconfig++.dll;#2" /manifest Release\libconfig++.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\libconfig++.unsuccessfulbuild".
+         Touching "Release\libconfig++.lastbuildstate".
+     1>Done Building Project "C:\Users\Greg\Documents\UXC\CamStudio\libconfig\lib\libconfig++.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.24
